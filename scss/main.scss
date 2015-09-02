@@ -1,0 +1,307 @@
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+
+$visual-grid: true;
+
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+
+
+
+.social {
+  @include outer-container;
+  border: 1px solid blue;
+  height: 65px;}
+
+.subscribe-list{
+  @include span-columns(2);
+  @include shift (7);
+  vertical-align: middle;
+  border: 1px dashed blue;
+  text-align: left;
+  padding: 0;
+}
+.subscribe-dot,
+.subscribe {
+  display: inline-block;
+  vertical-align: middle;
+
+}
+.header-icons {
+  @include span-columns (3);
+  border: 1px dashed blue;
+  padding-left: 0px;
+  text-align: center;
+}
+.h-icon{
+  display: inline-block;
+  vertical-align: middle;
+  @include omega(4n);
+}
+
+/////////
+.nav {
+  @include outer-container;
+  border: 1px solid red;
+  height: 45px;
+}
+.nav-boxes{
+  @include span-columns (12);
+  border: 1px dashed red;
+  display: inline-block;
+  vertical-align: middle;
+  height: 45px;
+  margin-top: 8px;
+}
+.n-box{
+  @include span-columns(3 of 12);
+  display: inline-block;
+  vertical-align: middle;
+  @include omega(4n);
+  text-align: center;
+}
+
+
+//////////
+.header{
+  @include outer-container;
+  border: 1px solid green;
+  height: em(360);
+}
+.header-container{
+  @include span-columns(12);
+  border: 1px dashed green;
+  background: url(../images/top-image.png) center center no-repeat;
+  background-size: cover;
+  height: em(360);
+  position: relative;
+
+
+  &::before{
+    content: "";
+    display: block;
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url(../images/grid.png) center center no-repeat;
+    background-size: cover;
+    opacity: .1;
+  }
+  }
+.logo-header{
+  display: block;
+  @include span-columns(3);
+}
+
+
+/////////
+.three-icons{
+  @include outer-container;
+  border: 1px solid purple;
+  height: 20px;
+  margin-top: 0px;
+}
+
+.little-icons{
+  @include span-columns (2);
+  @include shift (5);
+  border: 1px dashed purple;
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+.l-icon{
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%;
+    @include omega(1n);
+    padding-left: 2px;
+
+}
+
+
+
+.articles{
+  @include outer-container;
+  border: 1px solid orange;
+  height: 350px;
+}
+.content-articles{
+  @include span-columns(12);
+}
+.c-a-1,
+.c-a-2,
+.c-a-3{
+  @include span-columns(4);
+  display: inline-block;
+  border: 1px solid blue;
+  height:350px;
+  margin-top: 0px;
+  padding-bottom: 17px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 30px;
+  @include omega(3n);
+
+}
+
+.c-a-header{
+  font-size: 20px;
+}
+.c-a-date{
+  font-size: 12px
+}
+
+p{
+  font-size: 10px;
+
+}
+.read-more{
+@include span-columns(2 of 4);
+  display: block;
+  @include shift(1);
+}
+.skateboarders{
+  @include outer-container;
+  border: 1px solid brown;
+  height: 475px;
+}
+.skateboarders-pictures-left{
+  @include span-columns(8);
+  border: 1px dashed brown;
+  height: 475px;
+}
+.skateboarders-pictures-right{
+  @include span-columns(4);
+  border: 1px dashed red;
+  height: 475px;
+}
+.skateboarders-name1,
+.skateboarders-name2{
+  @include span-columns(4 of 8);
+  @include omega(2n);
+  border: 1px solid blue;
+  display: inline-block;
+  height: 220px;
+  margin-top: 0px;
+  padding-top: 75px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.skateboarders-name3{
+  @include span-columns(8 of 8);
+  @include omega;
+  border: 1px solid green;
+  height: 220px;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 75px;
+  font-size: 40px;
+}
+.skateboarders-name4{
+  @include span-columns(4 of 4);
+  height: 473px;
+  margin-top: 0px;
+}
+.skateboarders-name1{
+  background: url(../images/sk8er-4.png) 80% 80% no-repeat;
+  background-size: cover;
+  height: 220px;
+  position: relative;
+}
+.skateboarders-name2{
+  background: url(../images/sk8er-3.png) 70% 70% no-repeat;
+  background-size: cover;
+  height: 220px;
+  position: relative;
+}
+.skateboarders-name3{
+  background: url(../images/sk8er-1.png) 80% 80% no-repeat;
+  background-size: cover;
+  height: 213px;
+  position: relative;
+}
+.skateboarders-name4{
+  background: url(../images/sk8er-2.png) 80% 60% no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+.boards{
+  @include outer-container;
+  border: 1px solid yellow;
+  height: 300px;
+}
+.board-pictures{
+  @include span-columns(12);
+  border: 1px dashed yellow;
+}
+.board-pic{
+  @include span-columns(1.2 of 12);
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer{
+  @include outer-container;
+  border: 1px solid blue;
+  height: 360px;
+}
+.footer-content{
+  @include span-columns(6);
+  border: 1px dashed blue;
+  display: inline-block;
+  height: 360px;
+  padding-left: 25px;
+}
+.input-boxes{
+  @include span-columns(6);
+  display: inline-block;
+  height: 360px;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+.footer-article{
+    @include span-columns(6 of 6);
+    display: inline-block;
+    padding-top: 22px;
+
+  }
+.footer-icons{
+  @include span-columns(3 of 6);
+  padding: 0;
+  display: inline-block;
+}
+.f-i-button{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input{
+display: inline-block;
+  @include span-columns(6 of 6);
+}
+.i-b-1,
+.i-b-2{
+  height:40px;
+  margin-bottom: 15px;
+}
+.i-b-3{
+  height: 110px;
+  padding-bottom: 20px;
+}
+.submit{
+  @include span-columns(3 of 6);
+  @include shift(3);
+  display: block;
+  @include omega;
+  margin-top: 30px;
+  height: 40px;
+}
+ul{
+  list-style: none;
+  display: inline-block;
+}

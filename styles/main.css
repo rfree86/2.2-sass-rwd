@@ -1,0 +1,488 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body:before {
+  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
+  background-image: -moz-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
+  background-image: -ms-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
+  background-image: -o-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
+  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 68em;
+  opacity: 0.4;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: -1; }
+
+.social {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid blue;
+  height: 65px; }
+  .social::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.subscribe-list {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%;
+  margin-left: 59.70863%;
+  vertical-align: middle;
+  border: 1px dashed blue;
+  text-align: left;
+  padding: 0; }
+  .subscribe-list:last-child {
+    margin-right: 0; }
+
+.subscribe-dot,
+.subscribe {
+  display: inline-block;
+  vertical-align: middle; }
+
+.header-icons {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  border: 1px dashed blue;
+  padding-left: 0px;
+  text-align: center; }
+  .header-icons:last-child {
+    margin-right: 0; }
+
+.h-icon {
+  display: inline-block;
+  vertical-align: middle; }
+  .h-icon:nth-child(4n) {
+    margin-right: 0; }
+  .h-icon:nth-child(4n+1) {
+    clear: left; }
+
+.nav {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
+  height: 45px; }
+  .nav::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.nav-boxes {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  border: 1px dashed red;
+  display: inline-block;
+  vertical-align: middle;
+  height: 45px;
+  margin-top: 8px; }
+  .nav-boxes:last-child {
+    margin-right: 0; }
+
+.n-box {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center; }
+  .n-box:last-child {
+    margin-right: 0; }
+  .n-box:nth-child(4n) {
+    margin-right: 0; }
+  .n-box:nth-child(4n+1) {
+    clear: left; }
+
+.header {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid green;
+  height: 22.5em; }
+  .header::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.header-container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  border: 1px dashed green;
+  background: url(../images/top-image.png) center center no-repeat;
+  background-size: cover;
+  height: 22.5em;
+  position: relative; }
+  .header-container:last-child {
+    margin-right: 0; }
+  .header-container::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: url(../images/grid.png) center center no-repeat;
+    background-size: cover;
+    opacity: .1; }
+
+.logo-header {
+  display: block;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .logo-header:last-child {
+    margin-right: 0; }
+
+.three-icons {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid purple;
+  height: 20px;
+  margin-top: 0px; }
+  .three-icons::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.little-icons {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%;
+  margin-left: 42.64902%;
+  border: 1px dashed purple;
+  display: inline-block;
+  vertical-align: middle;
+  height: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+  .little-icons:last-child {
+    margin-right: 0; }
+
+.l-icon {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%;
+  padding-left: 2px; }
+  .l-icon:nth-child(1n) {
+    margin-right: 0; }
+  .l-icon:nth-child(1n+1) {
+    clear: left; }
+
+.articles {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid orange;
+  height: 350px; }
+  .articles::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.content-articles {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .content-articles:last-child {
+    margin-right: 0; }
+
+.c-a-1,
+.c-a-2,
+.c-a-3 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  display: inline-block;
+  border: 1px solid blue;
+  height: 350px;
+  margin-top: 0px;
+  padding-bottom: 17px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 30px; }
+  .c-a-1:last-child,
+  .c-a-2:last-child,
+  .c-a-3:last-child {
+    margin-right: 0; }
+  .c-a-1:nth-child(3n),
+  .c-a-2:nth-child(3n),
+  .c-a-3:nth-child(3n) {
+    margin-right: 0; }
+  .c-a-1:nth-child(3n+1),
+  .c-a-2:nth-child(3n+1),
+  .c-a-3:nth-child(3n+1) {
+    clear: left; }
+
+.c-a-header {
+  font-size: 20px; }
+
+.c-a-date {
+  font-size: 12px; }
+
+p {
+  font-size: 10px; }
+
+.read-more {
+  float: left;
+  display: block;
+  margin-right: 7.42297%;
+  width: 46.28851%;
+  display: block;
+  margin-left: 26.85574%; }
+  .read-more:last-child {
+    margin-right: 0; }
+
+.skateboarders {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid brown;
+  height: 475px; }
+  .skateboarders::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.skateboarders-pictures-left {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  border: 1px dashed brown;
+  height: 475px; }
+  .skateboarders-pictures-left:last-child {
+    margin-right: 0; }
+
+.skateboarders-pictures-right {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  border: 1px dashed red;
+  height: 475px; }
+  .skateboarders-pictures-right:last-child {
+    margin-right: 0; }
+
+.skateboarders-name1,
+.skateboarders-name2 {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%;
+  border: 1px solid blue;
+  display: inline-block;
+  height: 220px;
+  margin-top: 0px;
+  padding-top: 75px;
+  text-align: center;
+  font-size: 40px;
+  color: white; }
+  .skateboarders-name1:last-child,
+  .skateboarders-name2:last-child {
+    margin-right: 0; }
+  .skateboarders-name1:nth-child(2n),
+  .skateboarders-name2:nth-child(2n) {
+    margin-right: 0; }
+  .skateboarders-name1:nth-child(2n+1),
+  .skateboarders-name2:nth-child(2n+1) {
+    clear: left; }
+
+.skateboarders-name3 {
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 100%;
+  margin-right: 0;
+  border: 1px solid green;
+  height: 220px;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 75px;
+  font-size: 40px; }
+  .skateboarders-name3:last-child {
+    margin-right: 0; }
+
+.skateboarders-name4 {
+  float: left;
+  display: block;
+  margin-right: 7.42297%;
+  width: 100%;
+  height: 473px;
+  margin-top: 0px; }
+  .skateboarders-name4:last-child {
+    margin-right: 0; }
+
+.skateboarders-name1 {
+  background: url(../images/sk8er-4.png) 80% 80% no-repeat;
+  background-size: cover;
+  height: 220px;
+  position: relative; }
+
+.skateboarders-name2 {
+  background: url(../images/sk8er-3.png) 70% 70% no-repeat;
+  background-size: cover;
+  height: 220px;
+  position: relative; }
+
+.skateboarders-name3 {
+  background: url(../images/sk8er-1.png) 80% 80% no-repeat;
+  background-size: cover;
+  height: 213px;
+  position: relative; }
+
+.skateboarders-name4 {
+  background: url(../images/sk8er-2.png) 80% 60% no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative; }
+
+.boards {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid yellow;
+  height: 300px; }
+  .boards::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.board-pictures {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  border: 1px dashed yellow; }
+  .board-pictures:last-child {
+    margin-right: 0; }
+
+.board-pic {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 7.87811%;
+  display: inline-block;
+  vertical-align: middle; }
+  .board-pic:last-child {
+    margin-right: 0; }
+
+.footer {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid blue;
+  height: 360px; }
+  .footer::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.footer-content {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  border: 1px dashed blue;
+  display: inline-block;
+  height: 360px;
+  padding-left: 25px; }
+  .footer-content:last-child {
+    margin-right: 0; }
+
+.input-boxes {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  display: inline-block;
+  height: 360px;
+  padding-top: 30px;
+  padding-right: 30px; }
+  .input-boxes:last-child {
+    margin-right: 0; }
+
+.footer-article {
+  float: left;
+  display: block;
+  margin-right: 4.82916%;
+  width: 100%;
+  display: inline-block;
+  padding-top: 22px; }
+  .footer-article:last-child {
+    margin-right: 0; }
+
+.footer-icons {
+  float: left;
+  display: block;
+  margin-right: 4.82916%;
+  width: 47.58542%;
+  padding: 0;
+  display: inline-block; }
+  .footer-icons:last-child {
+    margin-right: 0; }
+
+.f-i-button {
+  display: inline-block;
+  vertical-align: middle; }
+
+input {
+  display: inline-block;
+  float: left;
+  display: block;
+  margin-right: 4.82916%;
+  width: 100%; }
+  input:last-child {
+    margin-right: 0; }
+
+.i-b-1,
+.i-b-2 {
+  height: 40px;
+  margin-bottom: 15px; }
+
+.i-b-3 {
+  height: 110px;
+  padding-bottom: 20px; }
+
+.submit {
+  float: left;
+  display: block;
+  margin-right: 4.82916%;
+  width: 47.58542%;
+  margin-left: 52.41458%;
+  display: block;
+  margin-right: 0;
+  margin-top: 30px;
+  height: 40px; }
+  .submit:last-child {
+    margin-right: 0; }
+
+ul {
+  list-style: none;
+  display: inline-block; }
