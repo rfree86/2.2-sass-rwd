@@ -6,30 +6,24 @@ html {
 *::before {
   box-sizing: inherit; }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  background-image: -moz-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  background-image: -ms-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  background-image: -o-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 68em;
-  opacity: 0.4;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: -1; }
+body {
+  background: url(../images/bg.jpg);
+  position: relative; }
+  body::before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(91, 91, 91, 0.5);
+    z-index: -9999; }
 
 .social {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid blue;
   height: 65px; }
   .social::after {
     clear: both;
@@ -43,7 +37,6 @@ body:before {
   width: 14.70196%;
   margin-left: 59.70863%;
   vertical-align: middle;
-  border: 1px dashed blue;
   text-align: left;
   padding: 0; }
   .subscribe-list:last-child {
@@ -52,14 +45,21 @@ body:before {
 .subscribe-dot,
 .subscribe {
   display: inline-block;
-  vertical-align: middle; }
+  vertical-align: middle;
+  color: white; }
+
+.dot {
+  position: relative;
+  font-size: 20px;
+  bottom: 5px;
+  left: 12px;
+  color: white; }
 
 .header-icons {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 23.23176%;
-  border: 1px dashed blue;
   padding-left: 0px;
   text-align: center; }
   .header-icons:last-child {
@@ -73,11 +73,18 @@ body:before {
   .h-icon:nth-child(4n+1) {
     clear: left; }
 
+.h-b-pic {
+  padding: 0px;
+  border: 0;
+  position: relative;
+  bottom: 10px;
+  color: #5b5b5b;
+  background-color: #5b5b5b; }
+
 .nav {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid red;
   height: 45px; }
   .nav::after {
     clear: both;
@@ -89,11 +96,11 @@ body:before {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  border: 1px dashed red;
   display: inline-block;
   vertical-align: middle;
   height: 45px;
-  margin-top: 8px; }
+  padding: 0px;
+  margin-top: 0px; }
   .nav-boxes:last-child {
     margin-right: 0; }
 
@@ -112,11 +119,19 @@ body:before {
   .n-box:nth-child(4n+1) {
     clear: left; }
 
+.n-button {
+  padding-left: 48px;
+  padding-top: 6px;
+  padding-right: 50px;
+  padding-bottom: 6px;
+  font-size: 15px;
+  color: white;
+  background-color: #b32e2e; }
+
 .header {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid green;
   height: 22.5em; }
   .header::after {
     clear: both;
@@ -128,7 +143,6 @@ body:before {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  border: 1px dashed green;
   background: url(../images/top-image.png) center center no-repeat;
   background-size: cover;
   height: 22.5em;
@@ -160,7 +174,6 @@ body:before {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid purple;
   height: 20px;
   margin-top: 0px; }
   .three-icons::after {
@@ -174,7 +187,6 @@ body:before {
   margin-right: 2.35765%;
   width: 14.70196%;
   margin-left: 42.64902%;
-  border: 1px dashed purple;
   display: inline-block;
   vertical-align: middle;
   height: 20px;
@@ -193,11 +205,13 @@ body:before {
   .l-icon:nth-child(1n+1) {
     clear: left; }
 
+.l-i-b {
+  border-radius: 100%; }
+
 .articles {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid orange;
   height: 350px; }
   .articles::after {
     clear: both;
@@ -220,13 +234,15 @@ body:before {
   margin-right: 2.35765%;
   width: 31.76157%;
   display: inline-block;
-  border: 1px solid blue;
   height: 350px;
   margin-top: 0px;
   padding-bottom: 17px;
   padding-right: 25px;
   padding-left: 25px;
-  padding-top: 30px; }
+  padding-top: 30px;
+  background-color: white;
+  margin-bottom: 14px;
+  border-bottom: 4px solid rgba(91, 91, 91, 0.5); }
   .c-a-1:last-child,
   .c-a-2:last-child,
   .c-a-3:last-child {
@@ -255,7 +271,8 @@ p {
   margin-right: 7.42297%;
   width: 46.28851%;
   display: block;
-  margin-left: 26.85574%; }
+  margin-left: 26.85574%;
+  color: #b32e2e; }
   .read-more:last-child {
     margin-right: 0; }
 
@@ -263,7 +280,6 @@ p {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid brown;
   height: 475px; }
   .skateboarders::after {
     clear: both;
@@ -275,7 +291,6 @@ p {
   display: block;
   margin-right: 2.35765%;
   width: 65.88078%;
-  border: 1px dashed brown;
   height: 475px; }
   .skateboarders-pictures-left:last-child {
     margin-right: 0; }
@@ -285,7 +300,6 @@ p {
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
-  border: 1px dashed red;
   height: 475px; }
   .skateboarders-pictures-right:last-child {
     margin-right: 0; }
@@ -296,10 +310,10 @@ p {
   display: block;
   margin-right: 3.57866%;
   width: 48.21067%;
-  border: 1px solid blue;
+  border: 8px solid white;
   display: inline-block;
   height: 220px;
-  margin-top: 0px;
+  margin-top: 14px;
   padding-top: 75px;
   text-align: center;
   font-size: 40px;
@@ -320,12 +334,14 @@ p {
   margin-right: 3.57866%;
   width: 100%;
   margin-right: 0;
-  border: 1px solid green;
+  border: 8px solid white;
   height: 220px;
   margin-top: 0px;
   text-align: center;
   padding-top: 75px;
-  font-size: 40px; }
+  font-size: 40px;
+  color: white;
+  margin-bottom: 16px; }
   .skateboarders-name3:last-child {
     margin-right: 0; }
 
@@ -334,8 +350,13 @@ p {
   display: block;
   margin-right: 7.42297%;
   width: 100%;
+  border: 8px solid white;
   height: 473px;
-  margin-top: 0px; }
+  margin-top: 14px;
+  color: white;
+  text-align: center;
+  padding-top: 163px;
+  font-size: 40px; }
   .skateboarders-name4:last-child {
     margin-right: 0; }
 
@@ -360,14 +381,13 @@ p {
 .skateboarders-name4 {
   background: url(../images/sk8er-2.png) 80% 60% no-repeat;
   background-size: cover;
-  height: 450px;
+  height: 474px;
   position: relative; }
 
 .boards {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid yellow;
   height: 300px; }
   .boards::after {
     clear: both;
@@ -379,7 +399,9 @@ p {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  border: 1px dashed yellow; }
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 25px; }
   .board-pictures:last-child {
     margin-right: 0; }
 
@@ -397,7 +419,6 @@ p {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid blue;
   height: 360px; }
   .footer::after {
     clear: both;
@@ -409,10 +430,10 @@ p {
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%;
-  border: 1px dashed blue;
   display: inline-block;
   height: 360px;
-  padding-left: 25px; }
+  padding-left: 25px;
+  background-color: white; }
   .footer-content:last-child {
     margin-right: 0; }
 
@@ -424,7 +445,8 @@ p {
   display: inline-block;
   height: 360px;
   padding-top: 30px;
-  padding-right: 30px; }
+  padding-right: 30px;
+  background-color: white; }
   .input-boxes:last-child {
     margin-right: 0; }
 
@@ -461,6 +483,9 @@ input {
   input:last-child {
     margin-right: 0; }
 
+.input-boxes {
+  padding-left: 5px; }
+
 .i-b-1,
 .i-b-2 {
   height: 40px;
@@ -479,10 +504,16 @@ input {
   display: block;
   margin-right: 0;
   margin-top: 30px;
-  height: 40px; }
+  height: 40px;
+  background-color: #b32e2e;
+  color: white; }
   .submit:last-child {
     margin-right: 0; }
 
 ul {
   list-style: none;
   display: inline-block; }
+
+a {
+  text-decoration: none;
+  color: inherit; }

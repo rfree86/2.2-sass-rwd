@@ -1,21 +1,38 @@
+
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
 
-$visual-grid: true;
+$visualize: grid-true;
 
 @import '../bower_components/neat/app/assets/stylesheets/neat';
+$accent-red: rgba(179, 46, 46, 1);
+$overlay: rgba(91, 91, 91, .5);
+$grid-colums: 14;
 
+body{
+  background: url(../images/bg.jpg);
+position: relative;
+  &::before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $overlay;
+  z-index: -9999;
 
+}
 
+}
 .social {
   @include outer-container;
-  border: 1px solid blue;
   height: 65px;}
 
 .subscribe-list{
   @include span-columns(2);
   @include shift (7);
   vertical-align: middle;
-  border: 1px dashed blue;
   text-align: left;
   padding: 0;
 }
@@ -23,11 +40,17 @@ $visual-grid: true;
 .subscribe {
   display: inline-block;
   vertical-align: middle;
-
+  color: white;
+}
+.dot{
+  position: relative;
+font-size: 20px;
+bottom: 5px;
+left: 12px;
+color: white;
 }
 .header-icons {
   @include span-columns (3);
-  border: 1px dashed blue;
   padding-left: 0px;
   text-align: center;
 }
@@ -36,20 +59,30 @@ $visual-grid: true;
   vertical-align: middle;
   @include omega(4n);
 }
+.h-b-pic{
+  padding: 0px;
+  border: 0;
+  position: relative;
+  bottom: 10px;
+  color: rgba(91, 91, 91, 1);
+  background-color: rgba(91, 91, 91, 1);
+}
 
 /////////
 .nav {
   @include outer-container;
-  border: 1px solid red;
+
   height: 45px;
 }
 .nav-boxes{
   @include span-columns (12);
-  border: 1px dashed red;
+
   display: inline-block;
   vertical-align: middle;
   height: 45px;
-  margin-top: 8px;
+  padding: 0px;
+  margin-top: 0px;
+
 }
 .n-box{
   @include span-columns(3 of 12);
@@ -57,23 +90,30 @@ $visual-grid: true;
   vertical-align: middle;
   @include omega(4n);
   text-align: center;
-}
 
+
+}
+.n-button{
+  padding-left: 48px;
+  padding-top: 6px;
+  padding-right: 50px;
+  padding-bottom: 6px;
+  font-size: 15px;
+  color: white;
+  background-color: $accent-red;
+}
 
 //////////
 .header{
   @include outer-container;
-  border: 1px solid green;
   height: em(360);
 }
 .header-container{
   @include span-columns(12);
-  border: 1px dashed green;
   background: url(../images/top-image.png) center center no-repeat;
   background-size: cover;
   height: em(360);
   position: relative;
-
 
   &::before{
     content: "";
@@ -92,12 +132,9 @@ $visual-grid: true;
   display: block;
   @include span-columns(3);
 }
-
-
 /////////
 .three-icons{
   @include outer-container;
-  border: 1px solid purple;
   height: 20px;
   margin-top: 0px;
 }
@@ -105,7 +142,6 @@ $visual-grid: true;
 .little-icons{
   @include span-columns (2);
   @include shift (5);
-  border: 1px dashed purple;
   display: inline-block;
   vertical-align: middle;
   height: 20px;
@@ -119,14 +155,14 @@ $visual-grid: true;
   border-radius: 100%;
     @include omega(1n);
     padding-left: 2px;
-
 }
-
+.l-i-b{
+  border-radius: 100%
+}
 
 
 .articles{
   @include outer-container;
-  border: 1px solid orange;
   height: 350px;
 }
 .content-articles{
@@ -137,7 +173,6 @@ $visual-grid: true;
 .c-a-3{
   @include span-columns(4);
   display: inline-block;
-  border: 1px solid blue;
   height:350px;
   margin-top: 0px;
   padding-bottom: 17px;
@@ -145,6 +180,9 @@ $visual-grid: true;
   padding-left: 25px;
   padding-top: 30px;
   @include omega(3n);
+  background-color: white;
+  margin-bottom: 14px;
+  border-bottom: 4px solid $overlay
 
 }
 
@@ -163,30 +201,28 @@ p{
 @include span-columns(2 of 4);
   display: block;
   @include shift(1);
+  color: $accent-red;
 }
 .skateboarders{
   @include outer-container;
-  border: 1px solid brown;
   height: 475px;
 }
 .skateboarders-pictures-left{
   @include span-columns(8);
-  border: 1px dashed brown;
   height: 475px;
 }
 .skateboarders-pictures-right{
   @include span-columns(4);
-  border: 1px dashed red;
   height: 475px;
 }
 .skateboarders-name1,
 .skateboarders-name2{
   @include span-columns(4 of 8);
   @include omega(2n);
-  border: 1px solid blue;
+  border: 8px solid white;
   display: inline-block;
   height: 220px;
-  margin-top: 0px;
+  margin-top: 14px;
   padding-top: 75px;
   text-align: center;
   font-size: 40px;
@@ -195,17 +231,24 @@ p{
 .skateboarders-name3{
   @include span-columns(8 of 8);
   @include omega;
-  border: 1px solid green;
+    border: 8px solid white;
   height: 220px;
   margin-top: 0px;
   text-align: center;
   padding-top: 75px;
   font-size: 40px;
+  color: white;
+  margin-bottom: 16px;
 }
 .skateboarders-name4{
   @include span-columns(4 of 4);
+    border: 8px solid white;
   height: 473px;
-  margin-top: 0px;
+  margin-top: 14px;
+  color: white;
+  text-align: center;
+    padding-top: 163px;
+    font-size: 40px;
 }
 .skateboarders-name1{
   background: url(../images/sk8er-4.png) 80% 80% no-repeat;
@@ -228,17 +271,18 @@ p{
 .skateboarders-name4{
   background: url(../images/sk8er-2.png) 80% 60% no-repeat;
   background-size: cover;
-  height: 450px;
+  height: 474px;
   position: relative;
 }
 .boards{
   @include outer-container;
-  border: 1px solid yellow;
   height: 300px;
 }
 .board-pictures{
   @include span-columns(12);
-  border: 1px dashed yellow;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 25px;
 }
 .board-pic{
   @include span-columns(1.2 of 12);
@@ -247,15 +291,14 @@ p{
 }
 .footer{
   @include outer-container;
-  border: 1px solid blue;
   height: 360px;
 }
 .footer-content{
   @include span-columns(6);
-  border: 1px dashed blue;
   display: inline-block;
   height: 360px;
   padding-left: 25px;
+  background-color: white;
 }
 .input-boxes{
   @include span-columns(6);
@@ -263,6 +306,7 @@ p{
   height: 360px;
   padding-top: 30px;
   padding-right: 30px;
+  background-color: white;
 }
 .footer-article{
     @include span-columns(6 of 6);
@@ -284,6 +328,9 @@ input{
 display: inline-block;
   @include span-columns(6 of 6);
 }
+.input-boxes{
+  padding-left: 5px;
+}
 .i-b-1,
 .i-b-2{
   height:40px;
@@ -300,8 +347,15 @@ display: inline-block;
   @include omega;
   margin-top: 30px;
   height: 40px;
+  background-color: $accent-red;
+  color: white;
+
 }
 ul{
   list-style: none;
   display: inline-block;
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }
