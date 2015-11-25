@@ -1,0 +1,42 @@
+<div class="boards">
+  <ul class="board-pictures">
+    <li class="board-pic"><img src="images/sk8-1.png"></li>
+    <li class="board-pic"><img src="images/sk8-2.png"></li>
+    <li class="board-pic"><img src="images/sk8-3.png"></li>
+    <li class="board-pic"><img src="images/sk8-4.png"></li>
+    <li class="board-pic"><img src="images/sk8-5.png"></li>
+    <li class="board-pic"><img src="images/sk8-6.png"></li>
+    <li class="board-pic"><img src="images/sk8-7.png"></li>
+    <li class="board-pic"><img src="images/sk8-8.png"></li>
+    <li class="board-pic"><img src="images/sk8-9.png"></li>
+    <li class="board-pic"><img src="images/sk8-10.png"></li>
+  </ul>
+    <button data-behavior="pause">next</button>
+</div>
+
+.boards{
+   @include outer-container(1300px);
+   height: 300px;
+}
+
+.board-pictures{
+
+  @include span-columns(12);
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.board-pic{
+
+  @include span-columns(1.2 of 12);
+  display: inline-block;
+  vertical-align: middle;
+
+  @include media($tablet) {
+    @include span-columns(4);
+    display: inline-block;
+    vertical-align: middle;
+
+  }
+}
