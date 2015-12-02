@@ -123,7 +123,7 @@ body {
   width: 100%;
   display: inline-block;
   vertical-align: middle;
-  height: 45px;
+  height: 245px;
   padding: 0px;
   margin-top: 0px; }
   .nav-boxes:last-child {
@@ -148,8 +148,7 @@ body {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%;
-      margin-bottom: 10px; }
+      width: 48.82117%; }
       .n-box:last-child {
         margin-right: 0; } }
 
@@ -183,9 +182,6 @@ body {
   position: relative; }
   .header-container:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 920px) {
-    .header-container {
-      margin-top: 30px; } }
   .header-container::before {
     content: "";
     display: block;
@@ -352,14 +348,6 @@ p {
   height: 475px; }
   .skateboarders-pictures-left:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 920px) {
-    .skateboarders-pictures-left {
-      float: left;
-      display: block;
-      margin-right: 3.57866%;
-      width: 151.78933%; }
-      .skateboarders-pictures-left:last-child {
-        margin-right: 0; } }
 
 .skateboarders-pictures-right {
   float: left;
@@ -369,14 +357,6 @@ p {
   height: 475px; }
   .skateboarders-pictures-right:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 920px) {
-    .skateboarders-pictures-right {
-      float: left;
-      display: block;
-      margin-right: 3.57866%;
-      width: 151.78933%; }
-      .skateboarders-pictures-right:last-child {
-        margin-right: 0; } }
 
 .skateboarders-name1,
 .skateboarders-name2 {
@@ -439,61 +419,24 @@ p {
   background-size: cover;
   height: 220px;
   position: relative; }
-  @media screen and (max-width: 920px) {
-    .skateboarders-name1 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 65.88078%;
-      height: 300px; }
-      .skateboarders-name1:last-child {
-        margin-right: 0; } }
 
 .skateboarders-name2 {
   background: url(../images/sk8er-3.png) 70% 70% no-repeat;
   background-size: cover;
   height: 220px;
   position: relative; }
-  @media screen and (max-width: 920px) {
-    .skateboarders-name2 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 65.88078%;
-      height: 300px; }
-      .skateboarders-name2:last-child {
-        margin-right: 0; } }
 
 .skateboarders-name3 {
   background: url(../images/sk8er-1.png) 80% 80% no-repeat;
   background-size: cover;
   height: 213px;
   position: relative; }
-  @media screen and (max-width: 920px) {
-    .skateboarders-name3 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 65.88078%;
-      height: 300px; }
-      .skateboarders-name3:last-child {
-        margin-right: 0; } }
 
 .skateboarders-name4 {
   background: url(../images/sk8er-2.png) 80% 60% no-repeat;
   background-size: cover;
   height: 474px;
   position: relative; }
-  @media screen and (max-width: 920px) {
-    .skateboarders-name4 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 65.88078%;
-      height: 300px;
-      margin-top: 550px; }
-      .skateboarders-name4:last-child {
-        margin-right: 0; } }
 
 .boards {
   max-width: 1300px;
@@ -504,18 +447,17 @@ p {
     clear: both;
     content: "";
     display: table; }
-  @media screen and (max-width: 920px) {
+  @media screen and (max-width: 740px) {
     .boards {
       display: none; } }
 
 .js-boards {
   display: none; }
-  @media screen and (max-width: 920px) {
+  @media screen and (max-width: 740px) {
     .js-boards {
       display: block;
       position: relative;
-      left: 40%;
-      top: 340px; } }
+      left: 40%; } }
 
 .board-pictures {
   float: left;
@@ -527,13 +469,13 @@ p {
   margin-bottom: 25px; }
   .board-pictures:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 920px) {
+  @media screen and (max-width: 740px) {
     .board-pictures {
       display: none; } }
 
 .js-board-pictures {
   display: none; }
-  @media screen and (max-width: 920px) {
+  @media screen and (max-width: 740px) {
     .js-board-pictures {
       display: inline-block;
       background-color: white;
@@ -553,7 +495,7 @@ p {
   vertical-align: middle; }
   .board-pic:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 920px) {
+  @media screen and (max-width: 740px) {
     .board-pic {
       display: none; } }
 
@@ -571,10 +513,6 @@ p {
     clear: both;
     content: "";
     display: table; }
-  @media screen and (max-width: 920px) {
-    .footer {
-      position: relative;
-      top: 325px; } }
 
 .footer-content {
   float: left;
