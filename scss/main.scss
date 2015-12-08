@@ -114,6 +114,13 @@ color: white;
   @include omega(4n);
   text-align: center;
 
+  @include media($tablet) {
+    @include span-columns(5 of 12);
+    margin-bottom: 10px;
+
+
+  }
+
 
 }
 .n-button{
@@ -137,6 +144,10 @@ color: white;
   background-size: cover;
   height: em(360);
   position: relative;
+
+  @include media($tablet) {
+    margin-top: 30px;
+  }
 
   &::before{
     content: "";
@@ -233,6 +244,8 @@ p{
   @include shift(1);
   color: $accent-red;
 }
+
+////SKATEBOARDERS//
 .skateboarders{
   @include outer-container(1300px);
   height: 475px;
@@ -240,10 +253,18 @@ p{
 .skateboarders-pictures-left{
   @include span-columns(8);
   height: 475px;
+
+  @include media($tablet) {
+    @include span-columns(12);
+  }
 }
 .skateboarders-pictures-right{
   @include span-columns(4);
   height: 475px;
+
+  @include media($tablet) {
+    @include span-columns(12);
+  }
 }
 .skateboarders-name1,
 .skateboarders-name2{
@@ -285,42 +306,59 @@ p{
   background-size: cover;
   height: 220px;
   position: relative;
+  @include media($tablet) {
+    @include span-columns(8 of 12);
+    height: 300px;
+  }
 }
 .skateboarders-name2{
   background: url(../images/sk8er-3.png) 70% 70% no-repeat;
   background-size: cover;
   height: 220px;
   position: relative;
+  @include media($tablet) {
+    @include span-columns(8 of 12);
+    height: 300px;
+  }
 }
 .skateboarders-name3{
   background: url(../images/sk8er-1.png) 80% 80% no-repeat;
   background-size: cover;
   height: 213px;
   position: relative;
+  @include media($tablet) {
+    @include span-columns(8 of 12);
+    height: 300px;
+  }
 }
 .skateboarders-name4{
   background: url(../images/sk8er-2.png) 80% 60% no-repeat;
   background-size: cover;
   height: 474px;
   position: relative;
+  @include media($tablet) {
+    @include span-columns(8 of 12);
+    height: 300px;
+    margin-top: 550px;
+  }
 }
 
 .boards{
    @include outer-container(1300px);
    height: 300px;
 
-   @include media($mobile) {
+   @include media($tablet) {
      display: none;
    }
 }
 .js-boards {
-  @include media($tablet);
   display: none;
 
-  @include media($mobile) {
+  @include media($tablet) {
     display: block;
     position: relative;
     left: 40%;
+    top: 340px;
 
   }
 }
@@ -331,15 +369,14 @@ p{
   margin-top: 40px;
   margin-bottom: 25px;
 
-  @include media($mobile) {
+  @include media($tablet) {
     display: none;
   }
 }
 .js-board-pictures {
-  @include media($tablet);
   display: none;
 
-  @include media($mobile) {
+  @include media($tablet) {
 
     display: inline-block;
     background-color: white;
@@ -357,12 +394,12 @@ p{
   display: inline-block;
   vertical-align: middle;
 
-  @include media($mobile) {
+  @include media($tablet) {
     display: none;
   }
 }
 .js-board-pic {
-  @include media($mobile);
+  @include media($tablet);
 
   vertical-align: middle;
   display: none;
@@ -373,6 +410,11 @@ height:260px;
 .footer{
   @include outer-container(1300);
   height: 360px;
+
+  @include media($tablet) {
+    position: relative;
+    top: 325px;
+  }
 }
 .footer-content{
   @include span-columns(6);
