@@ -74,7 +74,8 @@ color: white;
   display: inline-block;
 
   @include media($tablet) {
-    @include span-columns(2);
+    @include span-columns(5);
+    @include shift(2);
   }
 }
 .h-icon{
@@ -95,7 +96,7 @@ color: white;
 .nav {
   @include outer-container(1300px);
 
-  height: 45px;
+  // height: 45px;
 }
 .nav-boxes{
   @include span-columns (12);
@@ -104,7 +105,7 @@ color: white;
   vertical-align: middle;
   height: 45px;
   padding: 0px;
-  margin-top: 0px;
+
 
 }
 .n-box{
@@ -115,12 +116,11 @@ color: white;
   text-align: center;
 
   @include media($tablet) {
-    @include span-columns(5 of 12);
+    @include span-columns(8 of 12);
+    @include shift(1);
+    width: 100%;
     margin-bottom: 10px;
-
-
   }
-
 
 }
 .n-button{
@@ -137,6 +137,11 @@ color: white;
 .header{
   @include outer-container(1300px);
   height: em(360);
+  
+  @include media($tablet) {
+    margin-top: 100px;
+  }
+
 }
 .header-container{
   @include span-columns(12);
@@ -147,6 +152,7 @@ color: white;
 
   @include media($tablet) {
     margin-top: 30px;
+
   }
 
   &::before{
@@ -409,7 +415,7 @@ height:260px;
 
 .footer{
   @include outer-container(1300);
-  height: 360px;
+  // height: 360px;
 
   @include media($tablet) {
     position: relative;
@@ -422,6 +428,11 @@ height:260px;
   height: 360px;
   padding-left: 25px;
   background-color: white;
+
+  @include media($tablet) {
+    @include span-columns(8);
+    margin-top: 10px;
+  }
 }
 .input-boxes{
   @include span-columns(6);
@@ -430,6 +441,11 @@ height:260px;
   padding-top: 30px;
   padding-right: 30px;
   background-color: white;
+
+  @include media($tablet) {
+    @include span-columns(8);
+    margin-top: 10px;
+  }
 }
 .footer-article{
     @include span-columns(6 of 6);

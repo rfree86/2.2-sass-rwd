@@ -86,7 +86,8 @@ body {
       float: left;
       display: block;
       margin-right: 3.57866%;
-      width: 22.316%; }
+      width: 61.158%;
+      margin-left: 25.89467%; }
       .header-icons:last-child {
         margin-right: 0; } }
 
@@ -109,8 +110,7 @@ body {
 .nav {
   max-width: 1300px;
   margin-left: auto;
-  margin-right: auto;
-  height: 45px; }
+  margin-right: auto; }
   .nav::after {
     clear: both;
     content: "";
@@ -124,8 +124,7 @@ body {
   display: inline-block;
   vertical-align: middle;
   height: 45px;
-  padding: 0px;
-  margin-top: 0px; }
+  padding: 0px; }
   .nav-boxes:last-child {
     margin-right: 0; }
 
@@ -148,7 +147,9 @@ body {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%;
+      width: 65.88078%;
+      margin-left: 8.5298%;
+      width: 100%;
       margin-bottom: 10px; }
       .n-box:last-child {
         margin-right: 0; } }
@@ -171,6 +172,9 @@ body {
     clear: both;
     content: "";
     display: table; }
+  @media screen and (max-width: 920px) {
+    .header {
+      margin-top: 100px; } }
 
 .header-container {
   float: left;
@@ -565,8 +569,7 @@ p {
 .footer {
   max-width: 1300;
   margin-left: auto;
-  margin-right: auto;
-  height: 360px; }
+  margin-right: auto; }
   .footer::after {
     clear: both;
     content: "";
@@ -587,6 +590,15 @@ p {
   background-color: white; }
   .footer-content:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 920px) {
+    .footer-content {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
+      margin-top: 10px; }
+      .footer-content:last-child {
+        margin-right: 0; } }
 
 .input-boxes {
   float: left;
@@ -600,6 +612,15 @@ p {
   background-color: white; }
   .input-boxes:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 920px) {
+    .input-boxes {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
+      margin-top: 10px; }
+      .input-boxes:last-child {
+        margin-right: 0; } }
 
 .footer-article {
   float: left;
